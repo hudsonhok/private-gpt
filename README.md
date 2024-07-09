@@ -109,6 +109,7 @@ Run PrivateGPT
 You can verify if the GPU is being utilized by checking if blas = 1 with the run command output above.
 
 Visit `http://127.0.0.1:8001/` on your web browser and you should see the following:
+
 ![PrivateGPT_preview](https://github.com/hudsonhok/private-gpt/assets/77293019/22ebc95a-cfef-4e66-9ca1-88c33865233d)
 
 ### Conclusion
