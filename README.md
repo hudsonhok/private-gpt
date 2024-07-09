@@ -96,7 +96,7 @@ Install PrivateGPT dependencies:
 ### Build and Run PrivateGPT
 Install LLAMA libraries with GPU Support with the following:
 
-`CMAKE_ARGS='-DGGML_CUDA=on' poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python`
+`CMAKE_ARGS='-DGGML_CUDA=on' poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python numpy==1.26.4`
 
 This downloads an LLM locally (mistral-7b by default):
 
